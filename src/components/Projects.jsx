@@ -7,10 +7,27 @@ import Tilt from "react-parallax-tilt";
 ======================= */
 const projects = [
   {
+    title:"Smart Shoe and Smart Glass for Safe Detetction of Blind People",
+    completed:"Mar 2023",
+    year:"2023",
+    desc:`Developed a Smart Shoe and Smart Glass system using IoT and sensors to assist visually impaired individuals with real-time obstacle detection and safety alerts.
+    
+    The Smart Shoe provides tactile feedback through vibrations to alert users about obstacles on the ground, while the Smart Glass offers audio alerts for head-level obstacles and environmental awareness. By combining wearable IoT devices with embedded systems, the solution enables visually impaired users to navigate independently and safely in both indoor and outdoor environments.
+
+Technologies & Components:
+IoT, Embedded Systems, Ultrasonic Sensors, Microcontroller (Arduino / ESP32), Audio Feedback, Vibration Motors, Wearable Technology`
+  },
+  {
     title: "Netflix Clone",
     completed: "Nov 2024",
     year: "2024",
     desc: `🚀 Netflix Login Clone – Full Stack Project
+
+    This project is a Netflix Clone web application developed using React.js and Tailwind CSS for the frontend, and Node.js with Express.js for the backend. The application replicates core Netflix features such as user authentication, movie browsing, dynamic UI, and responsive design.
+
+The frontend delivers a modern, interactive user experience with reusable React components and utility-first styling using Tailwind CSS. The backend handles API requests, routing, authentication, and data management, enabling seamless communication between the client and server. The application is fully responsive and optimized for both desktop and mobile devices.
+
+Tech Stack:
 
 Frontend:
 React + Tailwind CSS
@@ -22,10 +39,27 @@ Demo:
 https://netflix-j6oo.vercel.app/`,
   },
   {
+    title: "Automated Detection of Depresion using  Deep Learning and Optimization",
+    completed: "Mar 2024",
+    year: "2024",
+    desc:`This project focuses on the automated detection of depression using deep learning techniques applied to EEG signals from the MODMA dataset. The goal was to build an accurate and reliable system that can assist in the early identification of depressive disorders by analyzing brain activity patterns.
+
+The EEG data underwent preprocessing and feature extraction to remove noise and improve signal quality. A deep learning model based on LSTM architecture was designed to capture temporal dependencies within the EEG time-series data. To further enhance performance, techniques such as dimensionality reduction, class balancing, and hyperparameter optimization were employed.
+
+The model achieved an accuracy of 92%, demonstrating strong capability in distinguishing between depressed and non-depressed subjects. Performance was evaluated using standard metrics including accuracy, precision, recall, F1-score, and confusion matrix analysis, ensuring the reliability of the detection system.
+
+Technologies & Tools:
+Python, Deep Learning, LSTM, EEG Signal Processing, MODMA Dataset, NumPy, Pandas, Scikit-learn, TensorFlow/Keras`
+  },
+  {
     title: "MERN E-Commerce",
     completed: "Jul 2025",
     year: "2025",
     desc: `🛒 Full Stack MERN E-Commerce Application
+
+    This project is a full-stack E-commerce web application developed using React.js for the frontend and Node.js with Express.js for the backend, with MongoDB as the database. The platform supports essential e-commerce functionalities such as user authentication, product listing, shopping cart management, and secure checkout.
+
+Cloudinary is integrated for efficient product image storage and optimization, while Firebase is used for authentication and real-time features. Razorpay is implemented to enable secure and seamless online payment processing. The application is fully responsive and designed to deliver a smooth and user-friendly shopping experience across devices.
 
 Tech Stack:
 React, Node.js, Express, MongoDB
@@ -40,12 +74,28 @@ https://lnkd.in/dnSkGy8b`,
     year: "2025",
     desc: `🧑‍💻 Portfolio + Blog Platform
 
+    This project is a Portfolio + Blog web platform developed using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Firebase integration. The platform allows users to showcase personal projects, skills, and experience while also publishing and managing blog content through a dynamic and responsive interface.
+
+Firebase is used for secure authentication, real-time updates, and deployment support, while MongoDB handles structured content such as blog posts, comments, and portfolio data. The application is designed with scalability and performance in mind, offering a seamless experience for both content creators and visitors.
+
+
 Tech Stack:
 MERN + Firebase
 
 Demo:
 https://lnkd.in/d4REcVHV`,
   },
+  {
+    title:"AI Driven IDS on Smart Homes Using Edge Computing and Jetson Nano",
+    completed:"Mar 2026",
+    year: "2026",
+    desc:`This project presents an AI-driven Intrusion Detection System (IDS) for smart home environments, leveraging edge computing on NVIDIA Jetson Nano to enable real-time threat detection. The system analyzes network traffic data from the IoT-23 dataset to identify malicious activities targeting IoT devices.
+
+Machine learning and deep learning models were trained to classify normal and attack traffic, ensuring low latency and improved privacy by performing inference at the edge rather than relying on cloud-based processing. The proposed system enhances smart home security by providing efficient, scalable, and real-time intrusion detection, while minimizing network overhead and response time.
+
+Technologies & Tools:
+Python, Machine Learning / Deep Learning, Edge Computing, NVIDIA Jetson Nano, IoT-23 Dataset, Network Security, IoT`
+  }
 ];
 
 /* =======================
