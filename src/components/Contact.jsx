@@ -51,7 +51,7 @@ export default function Contact() {
             />
 
             <ContactLink
-              href="https://linkedin.com/in/joshua-suriyan-n"
+              href="https://linkedin.com/in/joshua-suriyan-n-b6b988249"
               color="#0A66C2"
               icon={<FaLinkedin />}
               label="LinkedIn"
@@ -65,21 +65,21 @@ export default function Contact() {
             />
 
             <ContactLink
-              href="https://leetcode.com/joshuasuriyan05"
+              href="https://leetcode.com/u/42k9ZKDv8k/"
               color="#FFA116"
               icon={<SiLeetcode />}
               label="LeetCode"
             />
 
             <ContactLink
-              href="https://youtube.com"
+              href="https://www.youtube.com/@Jstudioz0105"
               color="#FF0000"
               icon={<FaYoutube />}
               label="YouTube"
             />
 
             <ContactLink
-              href="https://instagram.com"
+              href="https://www.instagram.com/yjoshuaztr.05/"
               color="#E4405F"
               icon={<FaInstagram />}
               label="Instagram"
