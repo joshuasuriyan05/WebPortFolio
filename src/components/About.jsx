@@ -2,40 +2,17 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section
-      id="about"
-      className="
-        px-4 sm:px-6 md:px-10
-        py-16 sm:py-20 md:py-24
-        max-w-5xl mx-auto
-      "
-    >
+    <section id="about" className="px-10 py-24 max-w-5xl mx-auto">
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        {/* TITLE */}
-        <h2
-          className="
-            text-2xl sm:text-3xl
-            font-bold
-            mb-6
-          "
-        >
-          About Me
-        </h2>
+        <h2 className="text-3xl font-bold mb-6">About Me</h2>
 
-        {/* INTRO */}
-        <p
-          className="
-            text-gray-800
-            text-sm sm:text-base
-            leading-relaxed
-            mb-4
-          "
-        >
+        {/* MAIN INTRO */}
+        <p className="text-gray-800 leading-relaxed mb-4">
           I am{" "}
           <span className="text-primary font-semibold">
             Joshua Suriyan N
@@ -46,14 +23,7 @@ export default function About() {
         </p>
 
         {/* JOURNEY */}
-        <p
-          className="
-            text-gray-800
-            text-sm sm:text-base
-            leading-relaxed
-            mb-4
-          "
-        >
+        <p className="text-gray-800 leading-relaxed mb-4">
           My journey into development has been driven by curiosity and a love
           for crafting digital solutions that solve real-world problems.
           Currently open to entry-level roles in full-stack or frontend
@@ -61,51 +31,38 @@ export default function About() {
         </p>
 
         {/* OPPORTUNITIES */}
-        <p
-          className="
-            text-gray-800
-            text-sm sm:text-base
-            leading-relaxed
-            mb-6
-          "
-        >
-          🎯 Currently open to opportunities in MERN stack development,
+        <p className="text-gray-800 leading-relaxed mb-6">
+           Currently open to opportunities in MERN stack development,
           frontend roles, or any exciting tech project where I can contribute
           and grow. I value team collaboration, continuous learning, and
           building solutions that make an impact.
         </p>
 
         {/* CONTACT INFO */}
-        <div
-          className="
-            space-y-2
-            text-sm sm:text-base
-            text-gray-800
-          "
-        >
-          <p>📩 Let’s connect!</p>
-          <p>📍 Based in Coimbatore</p>
-          <p>💻 Open to remote & hybrid roles</p>
+        <div className="space-y-2 text-black font-bold ">
+          <p> Let’s connect!</p>
+          <p> Based in Coimbatore</p>
+          <p> Open to remote & hybrid roles</p>
 
           <p>
-            🔗 GitHub:{" "}
+             GitHub:{" "}
             <a
               href="https://github.com/joshuasuriyan05"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-primary hover:underline break-all"
+              className="text-primary hover:underline"
             >
               github.com/joshuasuriyan05
             </a>
           </p>
 
           <p>
-            🔗 LinkedIn:{" "}
+             LinkedIn:{" "}
             <a
               href="https://linkedin.com/in/joshua-suriyan-n-b6b988249"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-primary hover:underline break-all"
+              className="text-primary hover:underline"
             >
               linkedin.com/in/joshua-suriyan-n-b6b988249
             </a>

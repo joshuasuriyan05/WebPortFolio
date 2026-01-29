@@ -11,7 +11,7 @@ export default function Experience() {
       >
         <h2 className="text-3xl font-bold mb-6">Experience</h2>
 
-        <div className="bg-gray-900 p-6 rounded-xl">
+        <div className="bg-gray-900 text-white  p-6 rounded-xl">
           <h3 className="text-xl font-semibold">
             Data Analytics Intern – GWC DATA.ai
           </h3>

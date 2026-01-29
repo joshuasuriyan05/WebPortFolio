@@ -32,12 +32,11 @@ export default function Contact() {
           <p className="uppercase text-sm text-gray-400">Get in touch</p>
 
           <h2 className="text-4xl md:text-5xl font-bold mt-2">
-            Contact<span className="text-primary">.</span>
+            Contacts<span className="text-primary">.</span>
           </h2>
 
           <p className="mt-4 text-gray-300">
-            Feel free to reach out — I’m always open to discussing new projects,
-            collaborations, or opportunities.
+            
           </p>
 
           {/* SOCIAL LINKS */}

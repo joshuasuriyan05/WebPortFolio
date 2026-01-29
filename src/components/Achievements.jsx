@@ -9,9 +9,9 @@ export default function Achievements() {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-3xl font-bold mb-6">Achievements</h2>
+        <h2 className="text-3xl text-white font-bold mb-6">Achievements</h2>
 
-        <ul className="space-y-4 text-gray-400 list-disc pl-6">
+        <ul className="space-y-4 text-white list-disc pl-6">
           <li>
             IEEE Paper Publication – <b>Smart Shoes and Glass for Blind People</b>
           </li>
